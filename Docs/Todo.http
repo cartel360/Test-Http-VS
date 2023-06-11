@@ -1,0 +1,32 @@
+@rootUrl = https://localhost:7037/api
+
+### Get all the TodoItems
+GET {{rootUrl}}/TodoItems
+
+
+### Create a new todo item
+POST {{rootUrl}}/TodoItems
+Content-Type: application/json
+
+{
+    "title": "Task Five",
+    "isCompleted": true
+}
+
+
+### Get a single todo item 
+GET {{rootUrl}}/TodoItems/1
+
+
+### Update a todo item
+PUT {{rootUrl}}/TodoItems/3
+Content-Type: application/json
+
+{
+    "title": "Task Three Edited",
+    "isCompleted": true
+}
+
+
+### Delete a todo item
+DELETE {{rootUrl}}/TodoItems/4

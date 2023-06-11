@@ -1,0 +1,44 @@
+# .NET Core and Visual Studio generated files
+.vs/
+bin/
+obj/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Ll]og[sS]/
+
+# Visual Studio code coverage results
+*.opencover.xml
+*.dotCover
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Folders (Roslyn / msbuild)
+[Bb]uild/
+
+# NuGet
+[Dd]ebug/
+[Rr]elease/
+[0-9]*/
+packages/
+*.nupkg
+*.pfx
+*.snk
+*.key
+
+# Folders to ignore
+node_modules/
+bower_components/
